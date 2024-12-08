@@ -39,7 +39,7 @@ function newportLsoa() {
 	L.control.Legend({
 		position: "bottomright",
 		legends: [{
-			label: "  Very Low Concern",
+			label: "- Very Low Concern",
 			type: "polygon",
 				color: "black",
 				fillColor: "green",
@@ -48,7 +48,7 @@ function newportLsoa() {
 				weight: 2
 		},
 		{
-			label: "  Low Concern",
+			label: "- Low Concern",
 			type: "polygon",
 				color: "black",
 				fillColor: "yellow",
@@ -57,7 +57,7 @@ function newportLsoa() {
 				weight: 2
 		},
 		{
-			label: "  Moderate Concern",
+			label: "- Moderate Concern",
 			type: "polygon",
 				color: "black",
 				fillColor: "orange",
@@ -66,7 +66,7 @@ function newportLsoa() {
 				weight: 2
 		},
 		{
-			label: "  Highest Concern",
+			label: "- Highest Concern",
 			type: "polygon",
 				color: "black",
 				fillColor: "red",
